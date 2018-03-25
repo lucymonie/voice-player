@@ -1,0 +1,36 @@
+html {
+  font-size: 10px;
+}
+
+h2 {
+  color:white;
+  font-size: 30px;
+  padding-top: 1rem;
+}
+
+body {
+  background:#86A397;
+  font-family: 'helvetica neue';
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.words {
+  max-width:500px;
+  margin:50px auto;
+  background:white;
+  border-radius:5px;
+  padding:1rem 2rem 1rem 2rem;
+  background-size: 100% 3rem;
+  position: relative;
+}
+
+.words:before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  border-color: transparent #efe4e4;
+}
